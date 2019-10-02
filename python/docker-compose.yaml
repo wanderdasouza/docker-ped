@@ -1,0 +1,7 @@
+version : '3.7'
+
+services:
+  myflaskcontainer:
+    build: .
+    ports:
+      - '8080:8080'
